@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container" id="header-container">
+      <img src="logo.jpg" alt="logo" class="logo">
+        <h2>Sarte Restaurant</h2>
+        <nav>
+          <ul>
+            <li><a href="#header-container">Home</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Reservation">Reservations</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+    
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to Our  Sarte Restaurant</h1>
+      <p><b>Discover our delicious dishes and experience a taste sensation</b></p>
+    </div>
+  </section>
+
+  <section class="reservation-section" id="Reservation">
+    <h2>Make a Reservation</h2>
+    <form id="reservation-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Make Reservation</button>
+    </form>
+    <p id="reservation-message" style="display:none;"></p>
+  </section>
+
+  <section class="menu-section" id="Menu">
+    <h2>Our Menu</h2>
+    <div class="card">
+      <img src="dish1.jpg" alt="Dish 1">
+      <h3>chinese food</h3>
+      <p> Our restaurant brings you a tantalizing array of authentic dishes that capture the essence of Chinese gastronomy. From mouthwatering dumplings and aromatic stir-fries to savory Peking duck and delicate dim sum, every bite is a celebration of bold spices, fresh ingredients, and exquisite craftsmanship. Immerse yourself in the art of Chinese cooking and embark on a culinary journey that delights the senses. Join us and savor the true taste of China.</p>
+    </div>
+    <div class="card">
+      <img src="karahi2.jpg" alt="Dish 2">
+      <h3>Desi food</h3>
+      <p>Immerse yourself in the vibrant and aromatic world of Pakistani desi cuisine, where bold flavors and rich traditions await. Experience the warmth and richness of authentic Pakistani dishes, from mouthwatering biryanis and tender kebabs to fragrant curries and hearty lentil delicacies. Savor the perfect blend of spices that dance on your palate, as every bite takes you on a culinary journey through the diverse flavors of Pakistan. Embrace the culinary heritage of the region as our passionate chefs meticulously prepare each dish with love and attention to detail. Discover the bold and enticing flavors that have made Pakistani desi food a true gastronomic delight.</p>
+    </div>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sarte. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
